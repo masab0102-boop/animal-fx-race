@@ -1,0 +1,20 @@
+:root{--bg:#f6f8fb;--card:#fff;--ink:#1f2a37;--sub:#5b6878;--line:#e3e8ef;--accent:#1f6f8b;--win:#16784c;--lose:#be3c3c}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,"Hiragino Sans","Noto Sans JP",sans-serif;line-height:1.8}
+header{background:#12324a;color:#fff;padding:12px 16px;display:flex;flex-wrap:wrap;gap:8px 20px;align-items:center}
+header a{color:#fff;text-decoration:none}.logo{font-weight:800;font-size:18px}nav a{margin-right:14px;font-size:14px;opacity:.9}
+main{max-width:760px;margin:0 auto;padding:16px}h1{font-size:24px;line-height:1.4}h2{font-size:19px;border-left:6px solid var(--accent);padding-left:10px;margin-top:32px}
+.intro{background:var(--card);border-radius:16px;padding:16px 20px;box-shadow:0 1px 3px #0001}.updated{color:var(--sub);font-size:13px}
+.scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;background:var(--card);border-radius:12px;overflow:hidden;font-size:14px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}table.facts th{width:32%;color:var(--sub);font-weight:600}
+.race td a{color:var(--ink);text-decoration:none;font-weight:700}img.mini{width:34px;height:34px;object-fit:contain;vertical-align:middle;margin-right:6px}
+.posts{padding-left:18px}.posts li{margin:6px 0}.posts a{color:var(--accent)}
+.hero{display:flex;gap:14px;align-items:center;margin:16px 0}.hero img.char{width:140px;height:140px;object-fit:contain}.hero.small img.char{width:96px;height:96px}
+.say{background:var(--card);border:2px solid var(--line);border-radius:18px;padding:12px 16px;font-weight:700}
+figure{margin:16px 0}figure img{width:100%;border-radius:12px;box-shadow:0 1px 4px #0002}figcaption{font-size:13px;color:var(--sub)}
+.win{color:var(--win)}.lose{color:var(--lose)}.crumb{font-size:13px;color:var(--sub)}.crumb a{color:var(--sub)}
+.card{display:flex;gap:16px;background:var(--card);border-radius:16px;padding:16px;margin:16px 0;box-shadow:0 1px 3px #0001}.card img.char{width:120px;height:120px;object-fit:contain;flex:none}
+.card h2{margin-top:0;border:none;padding:0}.role{color:var(--sub);font-size:14px}
+.ad{background:#fffbe8;border:1px solid #f1e3a6;border-radius:12px;padding:12px;margin:24px 0}.adlabel{display:inline-block;background:#8a6d00;color:#fff;font-size:12px;padding:0 8px;border-radius:6px;margin-right:8px}
+.pr{font-size:12px;color:var(--sub);margin:0 0 8px}
+footer{max-width:760px;margin:24px auto;padding:16px;color:var(--sub);font-size:13px}footer .note{background:#fff;border-radius:12px;padding:12px;border:1px solid var(--line)}
+@media(max-width:560px){.card{flex-direction:column}.hero img.char{width:100px;height:100px}h1{font-size:21px}}
